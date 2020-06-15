@@ -1,1 +1,1 @@
-sttweb: pip install . -U && testeloiselorelie-run
+sttweb: pip install . -U && lorelielorelierunrun-run
