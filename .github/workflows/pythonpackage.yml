@@ -28,7 +28,7 @@ jobs:
       run: |
         make install test clean
 
-    build:
+  deploy_heroku:
      runs-on: ubuntu-latest
      steps:
        - uses: actions/checkout@v2
