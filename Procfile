@@ -1,1 +1,1 @@
-web: pip install . -U && lmpack-run
+web: pip install . -U && lmpack2-run
