@@ -17,3 +17,11 @@ def test_clean_data():
     assert df.shape == (999, 142)
     out = clean_data(df)
     assert out.shape == (985, 119)
+
+def api_test():
+
+  import requests
+
+  url = "https://www.metaweather.com/api/location/search/?query=london"
+  response = requests.get(url).json()
+  print(type(response))
