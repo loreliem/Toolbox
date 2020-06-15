@@ -1,1 +1,1 @@
-web: pip install . -U && lmpack2-run
+sttweb: pip install . -U && testeloiselorelie-run
