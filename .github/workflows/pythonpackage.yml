@@ -37,5 +37,3 @@ jobs:
            heroku_api_key: ${{secrets.HEROKU_API_KEY}}
            heroku_app_name: "lorelielorelierunrun" # Must be unique in Heroku fake
            heroku_email: "loreliemani@gmail.com"
-        run: |
-          git push heroku HEAD:master -f
